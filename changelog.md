@@ -36,7 +36,12 @@
 
 <h4>(2025-12-11)</h4>
 <ul>
-  <li>🖱️ Click-to-open decks — deck names in the deadline addon are now clickable and instantly open the corresponding deck overview for smoother navigation. Credits for the code: Caladan0 </li>
+  <li>🖱️ Click-to-open decks — deck names now open the deck overview (credits: Caladan0).</li>
+  <li>📶 Daily Progress Bar (overview) — large bar showing <i>Target today</i>, <i>Done today</i>, and %; auto-inserted before the heatmap. (Toggle in settings.)</li>
+  <li>🐇/🐢 Tempo based on daily quota — hare only when today’s quota is met; tooltip shows <b>Quota • Done • Left • Today’s %</b> plus phase (new→cutoff / young→deadline).</li>
+  <li>💬 Daily message uses daily quota — “learn X more today (quota, done)” with time estimate in <i>~Hh Mm</i>.</li>
+  <li>📅 “Today” column — shows what you have completed today (replaces averages to avoid mixed signals).</li>
+  <li>⚙️ New setting — “Show daily progress bar on deck overview”.</li>
 </ul>
 <hr>
 

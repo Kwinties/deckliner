@@ -3,21 +3,21 @@
 <h4>(2025-06-25)</h4>
 <ul>
   <li>📅 One-time popup 3 days before a deck’s deadline</li>
-  <li>⚙️ New setting: choose how progress is displayed – bar + %, only bar, or only percentage</li>
-  <li>📈 Smart daily message: shows if you're on pace or need to catch up (can be toggled on or off)</li>
-  <li>💡 Tooltip improvements for tempo and target – clearer and more informative</li>
+  <li>⚙️ New setting: choose how progress is displayed — <i>bar + %</i>, <i>only bar</i>, or <i>only percentage</i></li>
+  <li>📈 Smart daily message: shows if you're on pace or need to catch up (toggleable)</li>
+  <li>💡 Tooltip improvements for tempo and target — clearer and more informative</li>
 </ul>
 
 <h4>(2025-09-29)</h4>
 <ul>
-  <li>🗑️ Remove all your deadlines by using 'Clear' after clicking on the ⚙️ on the right side of a deck</li>
+  <li>🗑️ Clear deadlines — use <b>Clear</b> via the ⚙️ menu to remove deadlines</li>
 </ul>
 
 <h4>(2025-11-10)</h4>
 <ul>
-  <li>🔥 Streaks — tracks how many days in a row you reach your daily target (toggle in settings). Uses ❄️ at 0 and 🔥 for 1+.</li>
-  <li>🗂️ Selective deadline removal — “Clear” now opens a selection dialog so you can remove specific deadlines instead of all at once.</li>
-  <li>💾 Deadline dialog behavior — explicit <em>Save</em> or <em>Cancel</em>; closing the dialog with ✖ no longer adds/updates a deadline.</li>
+  <li>🔥 Streaks — track how many days in a row you hit your daily target (toggleable). Uses ❄️ at 0 and 🔥 for 1+.</li>
+  <li>🗂️ Selective deadline removal — <b>Clear</b> now lets you pick specific decks to remove</li>
+  <li>💾 Deadline dialog behavior — explicit <em>Save</em> or <em>Cancel</em>; closing with ✖ no longer saves changes</li>
 </ul>
 <hr>
 
@@ -27,22 +27,37 @@
 </ul>
 <hr>
 
-<h4>(2025-12-4)</h4>
+<h4>(2025-12-04)</h4>
 <ul> 
-  <li>💬 Added a tooltip to the deadline column — hover over the number of remaining days to see when new cards are due (based on your cut-off setting). Shows text like <i>“New cards due in 3 day(s)”</i>.</li>
-  <li>🔄 Fixed a bug regarding setting multiple deadlines</li>
+  <li>💬 Deadline column tooltip — hover remaining days to see when <i>new cards</i> are due (based on your cut-off)</li>
+  <li>🔄 Bugfix — fixed an issue with setting multiple deadlines</li>
 </ul>
 <hr>
 
 <h4>(2025-12-11)</h4>
 <ul>
-  <li>🖱️ Click-to-open decks — deck names now open the deck overview (credits: Caladan0).</li>
-  <li>📶 Daily Progress Bar (overview) — large bar showing <i>Target today</i>, <i>Done today</i>, and %; auto-inserted before the heatmap. (Toggle in settings.)</li>
-  <li>🐇/🐢 Tempo based on daily quota — hare only when today’s quota is met; tooltip shows <b>Quota • Done • Left • Today’s %</b> plus phase (new→cutoff / young→deadline).</li>
-  <li>💬 Daily message uses daily quota — “learn X more today (quota, done)” with time estimate in <i>~Hh Mm</i>.</li>
-  <li>📅 “Today” column — shows what you have completed today (replaces averages to avoid mixed signals).</li>
-  <li>⚙️ New setting — “Show daily progress bar on deck overview”.</li>
+  <li>🖱️ Click-to-open decks — clicking a deck name opens its Overview (credits: Caladan0)</li>
+  <li>📶 Daily Progress Bar (Overview) — big bar showing <i>Target today</i>, <i>Done today</i>, and % (toggleable)</li>
+  <li>🐇/🐢 Tempo based on daily quota — hare only when today’s quota is met; tooltip shows <b>Quota • Done • Left • Today’s %</b> + phase</li>
+  <li>💬 Daily message uses daily quota — “learn X more today” + time estimate</li>
+  <li>📅 “Today” column — shows completed reviews today (instead of averages)</li>
+  <li>⚙️ New setting — toggle daily progress bar on deck overview</li>
 </ul>
 <hr>
 
-
+<h4>(2025-12-15)</h4>
+<ul>
+  <li>🗂️ Deadline settings split into tabs — <b>Deadline</b> (core settings) and <b>Additional</b> (extras) for a cleaner setup</li>
+  <li>⏳ Pre-start indicator — if a deck’s <i>Start Date</i> is in the future, the <b>Tempo</b> column shows an hourglass with a “studying starts in …” tooltip</li>
+  <li>💬 Pre-start daily message — daily message now shows “Studying starts in … days” before the start date</li>
+  <li>🛌 Days off support — new per-deck option <b>Skip weekends</b> so weekends don’t count toward targets (targets increase on study days)</li>
+  <li>🏖️ Vacation planner — add vacations via a friendly UI:
+    <ul>
+      <li><b>Add day</b> for a single date</li>
+      <li><b>Add range</b> for start/end dates</li>
+      <li>Remove selected items or clear all</li>
+    </ul>
+  </li>
+  <li>📆 Vacation ranges — ranges use <code>/</code> as the separator (example: <code>20-12-2025/04-01-2026</code>)</li>
+  <li>⚡ Performance improvements — reduced repeated DB queries while rendering the deckline table</li>
+</ul>

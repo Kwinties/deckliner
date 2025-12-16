@@ -28,7 +28,7 @@
 <hr>
 
 <h4>(2025-12-04)</h4>
-<ul> 
+<ul>
   <li>💬 Deadline column tooltip — hover remaining days to see when <i>new cards</i> are due (based on your cut-off)</li>
   <li>🔄 Bugfix — fixed an issue with setting multiple deadlines</li>
 </ul>
@@ -60,4 +60,12 @@
   </li>
   <li>📆 Vacation ranges — ranges use <code>/</code> as the separator (example: <code>20-12-2025/04-01-2026</code>)</li>
   <li>⚡ Performance improvements — reduced repeated DB queries while rendering the deckline table</li>
+</ul>
+<hr>
+
+<h4>(2025-12-16)</h4>
+<ul>
+  <li>🧮 Expected total cards (optional) — plan ahead by setting how many cards you <i>expect</i> to have in a deck by the end of the block; daily targets use this for smarter pacing when you add cards gradually</li>
+  <li>🗂️ Deadline tab cleanup — settings are grouped into <b>Deadline settings</b> and <b>Optional settings</b> for better readability</li>
+  <li>🗑️ Clear button — quickly reset <b>Expected total cards</b> back to <code>0</code> (disables the planning override)</li>
 </ul>

@@ -1,5 +1,11 @@
 <h3>🚀 Changelog</h3>
 
+<h4>(2025-12-17)</h4>
+<ul>
+  <li>⏱️ Time estimate multiplier — new optional setting to scale the time estimate in the daily message (e.g. <code>1.5×</code> turns <i>23 min</i> into <i>~35 min</i>)</li>
+</ul>
+<hr>
+
 <h4>(2025-12-16)</h4>
 <ul>
   <li>🧮 Expected total cards (optional) — plan ahead by setting how many cards you <i>expect</i> to have in a deck by the end of the block; daily targets use this for smarter pacing when you add cards gradually</li>
